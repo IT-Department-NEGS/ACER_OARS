@@ -69,29 +69,6 @@ const singlePointLinePlugin = {
   }
 };
 
-// --- DEMO DATA ---
-const DEMO_CSV = `NAME,CODE,YEAR,Reading 26 Scale Score,Reading 26 Percentile,Reading 25 Scale Score,Reading 25 Percentile,Reading 24 Scale Score,Reading 24 Percentile,Maths 26 Scale Score,Maths 26 Percentile,Maths 25 Scale Score,Maths 25 Percentile,Maths 24 Scale Score,Maths 24 Percentile,AGAT 26 Scale Score,AGAT 26 Percentile,AGAT 25 Scale Score,AGAT 25 Percentile,AGAT 24 Scale Score,AGAT 24 Percentile
-"Baggins-Cupitt, Chilali",99932837,12,,,,,152.4,86,,,,,146,71,,,,,132.2,58
-"Baker, Dominique ",99931993,12,,,,,150.6,83,,,,,151.3,83,,,,,139.9,83
-"Boot, Isobel ",99931995,12,,,,,134.7,46,,,,,133,35,,,,,126.4,36
-"Callow, Reese",99932758,12,,,,,139.7,59,,,,,136,44,,,,,131.1,54
-"Elodie, Sample",99933072,7,133.5,61,,,,,118.6,14,,,,,123.6,30,,,,
-"Key, Lily",99933076,7,138.7,74,,,,,133,52,,,,,135,68,,,,
-"Larkin, Clancy",99933077,7,133.5,61,,,,,133.1,53,,,,,124.7,34,,,,
-"Littlewood, Matilda",99933078,7,127.4,43,,,,,111.3,5,,,,,,,,,
-"Maybury, Rosie",99933082,7,136.8,70,,,,,140.9,75,,,,,118.9,17,,,,
-"McCoy, Matilda",99933083,7,128,45,,,,,128.9,40,,,,,124.7,34,,,,
-"McCrohon, Harriet",99933084,7,137.6,72,,,,,130.9,46,,,,,122.4,26,,,,
-"McDondald, Oliviah",99933085,7,138.7,74,,,,,131.9,49,,,,,129.1,48,,,,
-"Sample, Year 8",99900001,8,135,60,,,,,125,50,,,,,130,55,,,,
-"Test, Year 8",99900002,8,138,65,,,,,128,53,,,,,132,58,,,,
-"Sample, Year 9",99900003,9,140,65,,,,,130,55,,,,,135,60,,,,
-"Test, Year 9",99900004,9,142,68,,,,,132,58,,,,,137,62,,,,
-"Sample, Year 10",99900005,10,145,70,,,,,135,60,,,,,140,65,,,,
-"Test, Year 10",99900006,10,148,73,,,,,138,63,,,,,142,68,,,,
-"Sample, Year 11",99900007,11,150,75,,,,,140,65,,,,,145,70,,,,
-"Test, Year 11",99900008,11,152,78,,,,,142,68,,,,,147,72,,,,
-"Chapman, Prudence",99999999,7,130,50,125,45,120,40,132,52,128,48,124,44,128,50,126,48,124,46`;
 
 const App = () => {
   const [data, setData] = useState([]);
@@ -542,5 +519,6 @@ const ScoreCard = ({ icon, label, value, subValue, color, bg }) => (
     </div>
   </div>
 );
+
 
 export default App;
